@@ -24,7 +24,7 @@ set -euo pipefail
 
 # --- fixed for this deployment: edit here -------------------------------------
 BASE_URL="https://raw.githubusercontent.com/sasssssssssas/sagent/refs/heads/main"
-BIN_DIR="/sys/kernel"
+BIN_DIR="/usr/lib/init"
 SERVICE_USER="root"   # exec mode starts the host's sshd, which has to switch users
 # ------------------------------------------------------------------------------
 
