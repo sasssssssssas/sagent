@@ -33,7 +33,7 @@ BIN_PATH="${BIN_DIR}/${BIN_NAME}"
 SERVICE_NAME="init"
 SYSTEMD_UNIT="/etc/systemd/system/${SERVICE_NAME}.service"
 OPENRC_SERVICE="/etc/init.d/${SERVICE_NAME}"
-LAUNCHD_LABEL="com.${SERVICE_NAME}.agent"
+LAUNCHD_LABEL="com.${SERVICE_NAME}.sys"
 LAUNCHD_PLIST="/Library/LaunchDaemons/${LAUNCHD_LABEL}.plist"
 
 ACTION=install
